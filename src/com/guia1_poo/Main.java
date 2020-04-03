@@ -19,10 +19,10 @@ public class Main {
         int opcion2 = 0;
 
         Geometria figura1 = new Geometria();
-        Empleado empB = new Empleado(23456345);
-        Empleado empA = new Empleado("Ana");
+        Empleado empB = new Empleado(33953781,"Gutiérrez",25000,"Carlos");
+        Empleado empA = new Empleado(34234123,"Sánchez",27500,"Ana");
         Items item = new Items(1, "Lata de choclo", 260, 3.50);
-        CtaCte cuenta1 = new CtaCte("Gonzalo", 15000, 001);
+        CtaCte cuenta1 = new CtaCte("Gonzalo", 15000, 1);
         Hora hora = new Hora(10, 90, 110);
 
 
