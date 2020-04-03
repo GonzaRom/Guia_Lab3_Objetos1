@@ -50,8 +50,8 @@ public class Hora {
     }
 
     public void unSegMas() {
-        if (segundos >= 60) {
-            ++minutos;
+        if (segundos >= 59) {
+            setMinutos(++this.minutos);
             segundos = 0;
         } else ++segundos;
     }
