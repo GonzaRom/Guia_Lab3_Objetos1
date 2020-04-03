@@ -6,17 +6,10 @@ public class Empleado {
     private String apellido;
     private double salario = 0;
 
-    public Empleado(int dni) {
-        this.apellido = "Gutiérrez";
+    public Empleado(int dni, String apellido, double salario, String nombre) {
+        this.apellido = apellido;
         this.dni = dni;
-        this.salario = 25000;
-        this.nombre = "Carlos";
-    }
-
-    public Empleado(String nombre) {
-        this.apellido = "Sánchez";
-        this.dni = 34234123;
-        this.salario = 27500;
+        this.salario = salario;
         this.nombre = nombre;
     }
 
